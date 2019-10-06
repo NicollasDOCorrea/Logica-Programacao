@@ -1,6 +1,7 @@
 algoritmo "Nome e idade"
 var
-nome:caracter,idade:inteiro
+nome:caracter
+idade:inteiro
 inicio
 escreval("Digite seu nome")
 leia(nome)
