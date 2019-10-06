@@ -1,0 +1,22 @@
+algoritmo "Nome e idade" 
+// Disciplina : Linguagem e Lógica de Programação
+// Professor : Adonias 
+// Descrição : Um algoritmo que entre com o nome e a idade de uma pessoa e imprima essas mesmas informações na tela.
+// Autor(a) : Nicollas Daniel Oliveira Corrêa
+// Data atual : 26/08/2019
+var 
+// Seção de Declarações das variáveis
+var nome:caracter
+var idade:inteiro
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Iniciando.............................................................")
+escreval("Digite seu nome")
+leia(nome)
+escreval("Processando......................................................")
+escreval("Digite a sua idade")
+leia(idade)
+escreval("Processando......................................................")
+escreval("Seu nome é ",nome," e você tem ",idade," anos")
+escreval("Fim......................................................................")
+fimalgoritmo
