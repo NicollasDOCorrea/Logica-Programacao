@@ -1,0 +1,22 @@
+algoritmo "Ver o total" 
+// Disciplina : Linguagem e Lógica de Programação
+// Professor : Adonias 
+// Descrição : Um algoritmo que recebe a quantidade e o preço de determinado produto, que calcula e mostra na tela o total a ser pago pelo cliente.
+// Autor(a) : Nicollas Daniel Oliveira Corrêa
+// Data atual : 26/08/2019
+var 
+// Seção de Declarações das variáveis
+var quantidade,preco,total:real
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Iniciando..........................................")
+escreval("Quantos produtos você comprou ?")
+leia(quantidade)
+escreval("Processando....................................")
+escreval("Qual o preço do produto ?")
+leia(preco)
+total<-quantidade*preco
+escreval("Processando....................................")
+escreval("O valor total a ser pago é " ,total, " R$")
+escreval("Fim....................................................")
+fimalgoritmo
