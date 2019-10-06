@@ -1,0 +1,37 @@
+algoritmo "Desconto" 
+// Disciplina : Linguagem e Lógica de Programação
+// Professor : Adonias 
+// Descrição : Dado o valor da compra e o percentual de desconto, calcule o valor a ser pago. Considere que o percentual é um número real entre 0 e 1.
+// Autor(a) : Nicollas Daniel Oliveira Corrêa
+// Data atual : 26/08/2019
+var 
+// Seção de Declarações das variáveis
+var desconto,valorCompra,valorPago,percentual:real
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("⫸⫸⫸⫸⫸⫸⫸⫸⫸⫸INICIANDO⫷⫷⫷⫷⫷⫷⫷⫷⫷⫷⫷")
+escreval("➭ Qual o valor da compra ?")
+leia(valorCompra)
+escreval("⟳⟲⟳⟲⟳⟲⟳⟲⟳PROCESSANDO⟲⟳⟲⟳⟲⟳⟲⟳⟲")
+escreval("➭ Qual o percentual de desconto ?")
+leia(percentual)
+escreval("⟳⟲⟳⟲⟳⟲⟳⟲⟳PROCESSANDO⟲⟳⟲⟳⟲⟳⟲⟳⟲")
+
+se (percentual>1) entao
+escreval("⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦ERRO⌫⌫⌫⌫⌫⌫⌫⌫⌫⌫")
+escreval("➭ Você deve digitar um número entre 0 e 1")
+leia(percentual)
+fimse
+
+se (percentual<0) entao
+escreval("⌦⌦⌦⌦⌦⌦⌦⌦⌦⌦ERRO⌫⌫⌫⌫⌫⌫⌫⌫⌫⌫")
+escreval("➭ Você deve digitar um número entre 0 e 1")
+leia(percentual)
+fimse
+
+desconto<-percentual*valorCompra
+valorPago<-valorCompra-desconto
+
+escreval("➭ O desconto é de " ,desconto, " R$ e o valor total é " ,valorPago, " R$")
+escreval("⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐⋐FIM⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑⋑")
+fimalgoritmo
